@@ -1,0 +1,35 @@
+{
+  "name": "ppapi-crudjs",
+  "version": "1.0.0",
+  "description": "CRUD",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "REST",
+    "GET",
+    "POST",
+    "PUT",
+    "PATCH",
+    "UPDATE",
+    "DELETE",
+    "CRUD",
+    "API",
+    "DEVELOPMENT"
+  ],
+  "author": "NIKHIL JANSHALI",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.2",
+    "swagger-jsdoc": "^6.2.5",
+    "swagger-ui-express": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
